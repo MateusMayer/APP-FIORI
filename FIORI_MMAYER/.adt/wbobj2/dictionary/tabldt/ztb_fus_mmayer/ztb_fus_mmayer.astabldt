@@ -1,0 +1,13 @@
+@EndUserText.label : 'Tabela teste'
+@AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+@AbapCatalog.tableCategory : #TRANSPARENT
+@AbapCatalog.deliveryClass : #A
+@AbapCatalog.dataMaintenance : #ALLOWED
+define table ztb_fus_mmayer {
+
+  key client : abap.clnt not null;
+  key nome   : uname not null;
+  data       : erdat;
+  hora       : uzeit;
+
+}

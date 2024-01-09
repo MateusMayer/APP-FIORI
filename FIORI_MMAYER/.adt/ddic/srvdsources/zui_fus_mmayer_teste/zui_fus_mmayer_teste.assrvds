@@ -1,0 +1,4 @@
+@EndUserText.label: 'Definição de Serviço teste Mateus'
+define service ZUI_FUS_MMAYER_TESTE {
+  expose ZC_FUS_MMAYERTESTE;
+}

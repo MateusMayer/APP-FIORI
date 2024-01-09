@@ -1,0 +1,19 @@
+managed implementation in class zcl_bp_i_fus_mmayerteste unique;
+strict ( 2 );
+
+define behavior for ZI_FUS_MMAYERTESTE //alias <alias_name>
+persistent table ztb_fus_mmayer
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+  mapping for ztb_fus_mmayer{
+  Nome = nome;
+  Data = data;
+  Hora = hora;
+  }
+}

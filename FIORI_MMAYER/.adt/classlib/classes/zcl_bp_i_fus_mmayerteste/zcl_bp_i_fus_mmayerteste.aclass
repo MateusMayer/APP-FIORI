@@ -1,0 +1,5 @@
+CLASS zcl_bp_i_fus_mmayerteste DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_fus_mmayerteste.
+ENDCLASS.
+
+CLASS zcl_bp_i_fus_mmayerteste IMPLEMENTATION.
+ENDCLASS.

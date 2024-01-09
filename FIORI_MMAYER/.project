@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>S4F_100_fus_mmayer_pt</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>com.sap.adt.abapnature</nature>
+		<nature>com.sap.adt.abapnature</nature>
+	</natures>
+</projectDescription>

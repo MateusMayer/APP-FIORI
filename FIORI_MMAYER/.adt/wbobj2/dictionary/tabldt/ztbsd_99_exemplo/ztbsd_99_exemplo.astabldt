@@ -1,0 +1,18 @@
+@EndUserText.label : 'Treinamento ABAP'
+@AbapCatalog.enhancement.category : #EXTENSIBLE_ANY
+@AbapCatalog.tableCategory : #TRANSPARENT
+@AbapCatalog.deliveryClass : #A
+@AbapCatalog.dataMaintenance : #ALLOWED
+define table ztbsd_99_exemplo {
+
+  key mandt : mandt not null;
+  @AbapCatalog.foreignKey.label : 'Campo chave material'
+  @AbapCatalog.foreignKey.keyType : #KEY
+  @AbapCatalog.foreignKey.screenCheck : true
+  key matnr : matnr not null
+    with foreign key mara
+      where mandt = ztbsd_99_exemplo.mandt
+        and matnr = ztbsd_99_exemplo.matnr;
+  werks     : werks_d;
+
+}
